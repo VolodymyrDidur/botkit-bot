@@ -11,8 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "botbuilder-adapter-facebook": "^1.0.3",
-    "botbuilder-storage-mongodb": "^0.9.5",
     "botkit": "^4.0.2",
+    "botkit-storage-mongo": "^1.0.7",
     "dotenv": "^8.0.0",
     "request": "^2.88.0"
   },
