@@ -1,7 +1,7 @@
+require('dotenv').config();
 const { Botkit } = require('botkit');
 const { FacebookAdapter, FacebookEventTypeMiddleware } = require('botbuilder-adapter-facebook');
-const mongoStorage = require('botkit-storage-mongo')({ mongoUri: process.env.mongoUri });
-require('dotenv').config();
+const mongoStorage = require('botkit-storage-mongo')({ mongoUri: process.env.mongo_uri });
 
 const facebookAdapter = new FacebookAdapter({
   access_token: process.env.access_token,
